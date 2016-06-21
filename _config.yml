@@ -3,22 +3,36 @@
 # # # # # # # #
 
 # Basic
-name:               "Kiko"
+name:               "Venu"
 
 # URL
-baseurl:            ""
+baseurl:            "kiko"
 #baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title.html
 
 # Markdown
-markdown:           kramdown
+markdown:           rogue
 
 # Navigation
 nav:
   - name:           "About"
-    href:           "//kiko.gfjaru.com/about"
-  - name:           "Download"
-    href:           "//github.com/gfjaru/Kiko/releases"
+    href:           "/about"
+  - name:           "Blog"
+    href:           "/blog"
+  - name:           "Archive"
+    href:           "/archive"
+  - name:           "CV"
+    href:           "/cv"
+  - name:           "Projects"
+    href:           "/projects"
+  - name:           "Writing"
+    href:           "/writing"
+  - name:           "Speaking"
+    href:           "/speaking"
+  - name:           "More"
+    href:           "/more"
+  - name:           "Contact"
+    href:           "/contact"
 
 # Sass
 sass:
