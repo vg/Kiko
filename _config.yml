@@ -6,12 +6,13 @@
 name:               "Venu"
 
 # URL
-baseurl:            "kiko"
-#baseurl:            "" #For Root Domain
+url:                "https://vg.github.io"
+baseurl:            "/Kiko"
 permalink:          /:year/:month/:day/:title.html
 
 # Markdown
-markdown:           rogue
+markdown:           kramdown
+
 
 # Navigation
 nav:
